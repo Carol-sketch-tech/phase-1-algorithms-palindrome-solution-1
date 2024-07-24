@@ -1,5 +1,15 @@
+const randomString = "i am a cat"
+const reverseString= randomString.split("");
+console.log(reverseString)
+
 function isPalindrome(word) {
   // Write your algorithm here
+  // the code line blow does not work.
+
+  const reverseWord= reverse(word);
+  if (word === reverseWord){
+    return true;
+  }else{return false;}
 }
 
 /* 
